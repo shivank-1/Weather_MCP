@@ -40,7 +40,7 @@ def format_alert(feature: dict) -> str:
         """
 
 @mcp.tool()
-async def get_alerts(state: str -> str:
+async def get_alerts(state: str) -> str:
     """Get weather alerts for a US state.
 
     Args:

@@ -29,7 +29,7 @@ async def make_nws_request(url: str) -> dict[str, Any] | None:
         
 # Defining the format of the resonse
 def format_alert(feature: dict) -> str:
-    """Format an alert feature into a readabl strin."""
+    """Format an alert feature into a readable strin."""
     props = feature["properties"]
     return f"""
         Event: {props.get('event', 'Unknown')}

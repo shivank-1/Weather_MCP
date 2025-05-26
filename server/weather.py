@@ -19,7 +19,7 @@ async def make_nws_request(url: str) -> dict[str, Any] | None:
     }
     # making request for a specific website
     # Uses the httpx library to make async HTTP requests.
-    async with httpx.AsyncClient() as client
+    async with httpx.AsyncClient() as client:
         try:
             response = await client.get(url, headers=headers, timeout=30.0)
             response.raise_for_status()

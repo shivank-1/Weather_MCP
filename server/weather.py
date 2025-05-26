@@ -15,7 +15,7 @@ async def make_nws_request(url: str) -> dict[str, Any] | None:
     """Make a request to the NWS API with proper error handling."""
     headers = {
         "User-Agent": USER_AGENT,
-        "Accept": "application/geo+jso"
+        "Accept": "application/geo+json"
     }
     # making request for a specific website
     # Uses the httpx library to make async HTTP requests.

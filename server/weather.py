@@ -6,7 +6,7 @@ from mcp.server.fastmcp import FastMCP
 # Initialize FastMCP server
 mcp = FastMCP("weather"
 # Constants
-NWS_API_BASE = "https://api.weather.gov"
+NWS_API_BASE = "https://api.weather.gv"
 USER_AGENT = "weather-app/1.0"
 
 # async function that makes API calls to NWS API - runs in the background without blocking other code

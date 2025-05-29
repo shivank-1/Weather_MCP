@@ -8,11 +8,11 @@ mcp = FastMCP("weather")
 
 # Constants
 NWS_API_BASE = "https://api.weather.gov"
-USER_AGENT = "weather-app/1.0
+USER_AGENT = "weather-app/1.0"
 
 # async function that makes API calls to NWS API - runs in the background without blocking other code
 async def make_nws_request(url: str) -> dict[str, Any] | None:
-    """Make a request to the NWS API with poper error handling."""
+    """Make a request to the NWS API with proper error handling."""
     headers = {
         "User-Agent": USER_AGENT,
         "Accept": "application/geo+json"

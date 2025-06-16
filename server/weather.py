@@ -27,8 +27,8 @@ async def make_nws_request(url: str) -> dict[str, Any] | None:
         except Exception:
             return None
         
-# Defining the format of the resonse      
-def format_alert(feature: dict) -> str=
+# Defining the format of the resonses           
+def format_alert(feature: dict) -> str
     """Format an alert feature into a readable string."""
     props = feature["properties"]
     return f"""

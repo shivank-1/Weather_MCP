@@ -9,7 +9,7 @@ async def synthesize(
     boost: bool = Form(True), 
     token: str = Depends(get_user_ioles)
     ):
-    """
+    
     Generate speech from text using TTS model.
     """
     try:

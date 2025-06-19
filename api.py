@@ -7,7 +7,7 @@ async def synthesize(
     language: str = Form("en"),
     speed: float = Form(1.0),  # 0.7–1.2
     boost: bool = Form(True), 
-    token: str = Depends(get_user_id_roles)
+    token: str = Depends(get_user_ioles)
     ):
     """
     Generate speech from text using TTS model.

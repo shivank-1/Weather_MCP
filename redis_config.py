@@ -8,7 +8,7 @@ logger = get_logger()
 
 # REDIS_HOST = os.getenv("REDIS_HOST", "redis") # Default to "redis" for Docker container
 REDIS_HOST = os.getenv("REDIS_HOST", "localhost") # Default to "localhost" for local development
-REDIS_PORT = os.getenv("REDIS_PORT", "6379")
+REDIS_PORT = os.getenv("REDIS_PORT", "6379"
 REDIS_DB = os.getenv("REDIS_DB", "1")
 
 def get_redis_url():

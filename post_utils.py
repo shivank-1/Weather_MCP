@@ -34,7 +34,7 @@ def store_razorpay_record(user_id, subscription, status, order_id):
     )
     conn.commit()
     cur.close()
-    conn.close
+    conn.close()
     # logger.info(f"Stored payment record for {user_id}: {subscription} - {status}")
     print(f"Stored payment record for {user_id}: {subscription} - {status}")
 

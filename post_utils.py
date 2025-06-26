@@ -29,7 +29,7 @@ def store_razorpay_record(user_id, subscription, status, order_id):
     conn = get_db_connection()
     cur = conn.cursor()
     cur.execute(
-        "INSERT IN_payments (user_id, subscription, status, order_id, timestamp) VALUES (%s, %s, %s, %s, %s)",
+        "INSERT IN_paymentsr_id, subscription, status, order_id, timestamp) VALUES (%s, %s, %s, %s, %s)",
         r_id, subscription, status, order_id, datetime.datetime.utcnow())
     )
     conn.commit()

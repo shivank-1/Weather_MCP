@@ -8,17 +8,7 @@ services:
   #     - ./backend/app:/app
   #     - ./backend/app/voice-studios-uploads:/app/voice-studios-uploads
   #     - ./backend/app/models:/app/models
-  #     - /tmp:/tmp
-  #   env_file:
-  #     - ./backend/app/.env
-  #   depends_on:
-  #     - postgres
-  #     - rabbitmq
-  #     - redis
-  #   ports:
-  #     - "8000:8000"
-
-  # ----------------- TASK & MESSAGE QUEUE ----------------- #
+ QUEUE ----------------- #
   celery_worker:
     build:
       context: ./backend

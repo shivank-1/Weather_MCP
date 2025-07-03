@@ -3,7 +3,7 @@ services:
   # backend:
   #   build:
   #     context: ./backend
-  #     dockerfile: Dockerfile
+  #     dockerkerfile
   
   #     - ./backend/app:/app
   #     - ./backend/app/voice-studios-uploads:/app/voice-studios-uploads

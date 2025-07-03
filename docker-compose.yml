@@ -4,7 +4,7 @@ services:
   #   build:
   #     context: ./backend
   #     dockerfile: Dockerfile
-  #   volumes:
+  
   #     - ./backend/app:/app
   #     - ./backend/app/voice-studios-uploads:/app/voice-studios-uploads
   #     - ./backend/app/models:/app/models

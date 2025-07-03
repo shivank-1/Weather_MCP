@@ -2,7 +2,7 @@ services:
 
   # backend:
   #   build:
-  #     co
+ 
   
   #     - ./backend/app:/app
   #     - ./backend/app/voice-studios-uploads:/app/voice-studios-uploads

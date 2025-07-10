@@ -1,6 +1,6 @@
 
   
-  #    /vstudios-uploads:/app/voice-studios-uploads
+  #    /vstudios-uploads:/app/voices-uploads
   #     - ./backend/app/models:/app/mod
       - /tmp:/tmp
     depends_on:

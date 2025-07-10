@@ -1,7 +1,7 @@
 
   
   #     - ./bac
-  #     - ./backend/app/voice-studios-uploads:/app/voice-studios-uploads
+  #     - ./backend/app/vstudios-uploads:/app/voice-studios-uploads
   #     - ./backend/app/models:/app/models
       - /tmp:/tmp
     depends_on:

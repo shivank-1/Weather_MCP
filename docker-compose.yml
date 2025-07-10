@@ -1,8 +1,7 @@
 
   
-  #    
-  #     - ./backend/app/vstudios-uploads:/app/voice-studios-uploads
-  #     - ./backend/app/models:/app/models
+  #    /vstudios-uploads:/app/voice-studios-uploads
+  #     - ./backend/app/models:/app/mod
       - /tmp:/tmp
     depends_on:
       - redis

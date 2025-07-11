@@ -5,9 +5,7 @@
       - /tmp:/tmp
     depends_on:
       - \
-      - rabbitmq
- 
-  redis:
+      - rabbiredis:
     image: redis:alpine
     ports:
       - "6379:6379"

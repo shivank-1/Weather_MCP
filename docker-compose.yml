@@ -1,6 +1,6 @@
 
   
-  #    /vstudios-upl
+  #    /vstudios-u
   #     - ./backend/app/models://mod
       - /tmp:/tmp
     depends_on:

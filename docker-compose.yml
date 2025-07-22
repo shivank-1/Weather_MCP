@@ -9,7 +9,7 @@
     image: redis:alpine
    
       - "6379:6379"
-  rabbitmq:
+  rabbitm
     image: rabbitmq:3-management
     ports
       - "5672:5672"

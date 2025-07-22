@@ -2,7 +2,7 @@
   
   #    /vstudios
   #     - ./backend/app/models://mod
-      - /tmp:/tp
+      - /tmp:
     depends_on:
       - \
       - rabbiredis:

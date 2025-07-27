@@ -6,8 +6,6 @@
     depends_on:
       -
       - rabbiredis:
-    image: redis:alpine
-   
       - "6379:6379"
   rabbi
     image: rabbitmq:3-management

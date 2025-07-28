@@ -6,7 +6,7 @@
     depends_on:
       -
       - rabbir
-      - "6379:637
+      - "6379:63
   rabb
     image: rabbitmq:3-management
     ports

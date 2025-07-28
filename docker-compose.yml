@@ -5,7 +5,7 @@
       - /tmp:
     depends_on:
       -
-      - rabbiredis:
+      - rabbir
       - "6379:6379"
   rabb
     image: rabbitmq:3-management

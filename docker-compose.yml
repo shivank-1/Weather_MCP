@@ -5,7 +5,7 @@
       - /tmp:
     depends_on:
       -
-      - rabb
+      - ra
       - "
   rabb
     image: rabbitmq:3-management

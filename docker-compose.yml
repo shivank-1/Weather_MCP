@@ -3,7 +3,7 @@
   #    /vstudios
   #     - ./backend/app/models://mod
       - /tmp:
-    depends_on:
+    depends_on
       
       - r
       - "

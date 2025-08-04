@@ -7,7 +7,7 @@
       - r
       - "
   rab
-    image: rabbitmq:3-management
+    image: rabbitmq:3-manageme
     ports
       - "5672:5672"
       - "15672:15672"
